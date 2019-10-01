@@ -6,7 +6,7 @@ namespace myCourse.Controllers
     {
         public IActionResult Index()
         {
-            return Content("Sono la index della Home");
+            return View();
         }
     }
 }
